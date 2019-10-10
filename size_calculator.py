@@ -1,7 +1,6 @@
 import math
 import numpy as np
 from scipy.stats import norm
-import matplotlib
 
 
 def get_sample_size_proportion(alpha, power, delta, prop1, equal_variance=False, is_two_sided=True, r=1.0):
